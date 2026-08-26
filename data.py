@@ -27,7 +27,7 @@ animal_sale = True
 # print
 print("")
 print(
-    f"Hello! would you like to buy a some {animals}? we have {quantity} available for purchase."
+    f"Hello! would you like to buy a some {animals}? we have {quantity} available for purchase, {animal_sale}."
 )
 print(
     f"for one {animal} it will cost you ${single_cost} or we could loan you ${loan} and you can pay us later."
