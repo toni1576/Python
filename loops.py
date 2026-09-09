@@ -20,6 +20,8 @@ while not nagging:
     if stop == "yes":
         nagging = True
 
+print()
+
 # >Greater <less
 for beer in range(99, 1, -1):
     print(f"{beer} bottles of beer on the wall!")
