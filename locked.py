@@ -12,7 +12,7 @@ ASSIGNMENT 6B: THE DEPARTMENT SECURITY TERMINAL
 
 try:
     DEP_ELECTRONICS = "Electronics Department"
-    USER_NAMES = ["John", "Tess", "May", "Tom", "Terry"]
+    USER_NAMES = ("John", "Tess", "May", "Tom", "Terry")
     passwords = ["12345", "12345", "12345", "12345", "12345"]
     choice = 1
 
@@ -38,6 +38,7 @@ try:
                     print("Sorry This user doesn't exist \n")
             case 2:
                 user = input("What would you like to change your user name to? ")
+                USER_NAMES[0] = user
 
             case 3:
                 look = input(
@@ -49,5 +50,7 @@ try:
 
 except ValueError:
     print("Please enter a number")
+except TypeError:
+    print("User names cannot be changed. Please email the help desk.")
 except Exception as e:
     print(e)
