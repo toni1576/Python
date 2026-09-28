@@ -29,7 +29,7 @@ try:
                 name = input(
                     "Please enter the user name of who's password your changing: "
                 )
-                if name in USER_NAMES:
+                if name in USER_NAMES: #Connects the USER_NAMES to password so changes to passwords correlated to it. 
                     location = USER_NAMES.index(name)
                     password = input("Enter a new password: ")
                     passwords[location] = password
@@ -38,12 +38,18 @@ try:
                     print("Sorry This user doesn't exist \n")
             case 2:
                 user = input("What would you like to change your user name to? ")
-                USER_NAMES[0] = user
+                USER_NAMES[0] = user # since USER_NAMES is a tuple, meaning it cant be change, print except TypeError message
 
             case 3:
                 look = input(
                     "Please enter the name of the employee you want to look for: "
                 )
+                if look in USER_NAMES: #looks up employee by name and print password
+                    location = USER_NAMES.index(look)
+                    print(f"Employee found: {USER_NAMES[location]}")
+                    print(f"Password: {passwords[location]}\n")
+                else:
+                    print("Sorry This user doesn't exist \n")
 
             case 4:
                 print("Goodbye!")
