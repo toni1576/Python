@@ -13,8 +13,21 @@ ASSIGNMENT 6A: TICKET SALES
 
 # >greater <less
 seats = list(range(1, 21))
-num = 0
 
-while num < len(seats):
-    for choice in seats:
-        print(choice)
+while seats:
+	print("Available seats:", seats)
+	choice = int(input("Choose a seat number (0 to quit): "))
+
+	if choice == 0:
+		print("Goodbye!")
+		break
+	elif choice in seats:
+		seats.remove(choice)
+		print(f"Seat {choice} reserved.")
+	elif 1 <= choice <= 20:
+		print(f"Seat {choice} is already taken.")
+	else:
+		print(f"Seat {choice} does not exist.")
+
+if not seats:
+	print("All seats are reserved.")
