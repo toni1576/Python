@@ -20,14 +20,14 @@ while seats:
 
 	if choice == 0:
 		print("Goodbye!")
-		break
+		break # exit the loop
 	elif choice in seats:
-		seats.remove(choice)
+		seats.remove(choice) #removes the seat chosen 
 		print(f"Seat {choice} reserved.")
 	elif 1 <= choice <= 20:
 		print(f"Seat {choice} is already taken.")
 	else:
 		print(f"Seat {choice} does not exist.")
 
-if not seats:
+if not seats: # not makes the condition true when seats are all taken
 	print("All seats are reserved.")
