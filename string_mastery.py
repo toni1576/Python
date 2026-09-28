@@ -18,13 +18,13 @@ highest = max(instrument)
 print(lowest)
 print(highest) #consider done for now
 
-print("/\n")
+print("\n")
 
 #task 2 cleanup crew
 messy_input = "   vOLUME_knob_11   "
 print(messy_input.strip().replace("_", " ").title())
 
-print("/\n")
+
 
 #task 3 the validator
 serial_number = "90210"
@@ -33,7 +33,7 @@ if serial_number.isdigit():
 else:
 	print("Invalid serial")
 
-print("/\n")
+print("\n")
 
 # task 4 the duck bridge 
 name_string = "DUCKY"
