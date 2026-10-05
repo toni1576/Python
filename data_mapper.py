@@ -50,7 +50,7 @@ try:
         print("")
         choice = int(input("Enter your choice: "))
         print("")
-        # word = input("Enter word to spell: ").upper()
+        
 
         match choice:
             case 1: #user input get turned into the nato code and print it out
