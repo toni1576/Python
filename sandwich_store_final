@@ -1,0 +1,25 @@
+#ASSIGNMENT 9B: SPRINT 2 - FUNCTIONAL STUBS
+#Project: Sandwich Store 
+
+#Global constance 
+CHIPS = ("Lays", "Baked lays", "Vickie's Kettle Cooked Jalapenos", "Sun-chip Harvest Cheddar", "Doritos Nacho Cheese" )
+SAUCE = ("Baja Chipotle", "Mayonnaise", "Yellow Mustard", "Honey Mustard", "BBQ", "Creamy Siracha", "Roasted Garlic Aioli", "Sweet Onion Teriyaki")
+VEGGIES = ("Lettuce", "Spinach", "Tomato", "Cucumbers", "Red Onion", "White Onion", "Bell Peppers", "Pickles", "Jalapenos", "Banana Jalapenos") 
+MEAT = ("Ham", "Turkey", "Black Forest Ham", "Bacon", "Rotisserie Chicken", "Teriyaki", "Steak", "Pepperoni", "Salami", "Tuna", "Bologna")
+CHEESE = ("American", "Provolone", "Swiss", "Monterey Jack", "Pepper Jack")
+BREAD = ("White", "Italian Herb and Cheese", "Wheat", "Artisan" )
+SODAS = (" Coke", "Pepsi", "Sprite", "Dr. Pepper")
+PREMADE_SANDWICHES = ("BLT", "BMT", "Roast Beef", "Turkey and Ham", "Ham and Salami", "Cold Cut Combo", "Steak Philly", "Grilled Chicken", "Tuna Sandwich", "Veggie Delight")
+DRINK_SIZES = ("Small", "Medium", "Large")
+BREAD_SIZES = ("6 inch", "12 inch")
+CHEESE_PRICE = ("6 inch - $0.30", "12 inch - $0.60")
+
+MENU_FILE = "menu.txt"
+
+
+#def main():
+    #login
+    #saved past orders (5)
+
+
+#ain()
